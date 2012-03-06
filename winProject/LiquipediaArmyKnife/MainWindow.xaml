@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="594" Width="858">
+    <Grid>
+        <TabControl Height="555" HorizontalAlignment="Left" Name="tabControl1" VerticalAlignment="Top" Width="836">
+            <TabItem Header="MapStat" Name="tabItem1" >
+                <Grid>
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="74,6,0,0" Name="textBox1" VerticalAlignment="Top" Width="356" />
+                    <TextBlock Height="26" HorizontalAlignment="Left" Margin="12,9,0,0" Name="textBlock1" Text="URL" VerticalAlignment="Top" Width="56" TextAlignment="Right" />
+                    <Button Content="Button" Height="23" HorizontalAlignment="Left" Margin="464,6,0,0" Name="button1" VerticalAlignment="Top" Width="75" Click="button1_Click" />
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
